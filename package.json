@@ -1,0 +1,23 @@
+{
+  "name": "gooms-server",
+  "version": "1.0.0-alpha.1",
+  "description": "Get Out Of My Spot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbessou/gooms-server.git"
+  },
+  "keywords": [
+    "game",
+    "boat"
+  ],
+  "author": "fbessou, proïd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbessou/gooms-server/issues"
+  },
+  "homepage": "https://github.com/fbessou/gooms-server#readme"
+}
