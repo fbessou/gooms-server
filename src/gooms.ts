@@ -1,7 +1,7 @@
 import { Game } from "./core";
 import { MainMenu } from "./mainmenu";
 
-export class Gooms extends Game{
+export class Gooms extends Game {
 	constructor(rootElement: HTMLElement) {
 		super(rootElement);
 		this.pushState(new MainMenu(this));
