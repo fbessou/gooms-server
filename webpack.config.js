@@ -1,4 +1,5 @@
-path = require("path")
+path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	resolve: {
 		extensions: ["", ".ts", ".js"]
@@ -24,6 +25,12 @@ module.exports = {
 		clearImmediate: false,
 		setImmediate: false
 	},
+	plugins : [
+		new HtmlWebpackPlugin({
+			template: 'src/index.html',
+			chunksSortMode: 'dependency'
+		})
+	],
 	devServer: {
 		port:1337
 	}
