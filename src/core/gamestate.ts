@@ -4,5 +4,5 @@ export abstract class GameState {
 	constructor(private game: Game) { }
 	enter : () => {};
 	leave : () => {};
-	update: () => {}
+	update: () => {};
 }
