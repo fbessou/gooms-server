@@ -16,6 +16,12 @@ module.exports = {
 				test: /\.ts$/,
 				loader: "ts-loader"
 			}
+		],
+		postLoaders: [
+			{
+				include: path.resolve('node_modules/pixi.js'),
+				loader: 'transform/cacheable?brfs'
+			}
 		]
 	},
 	node: {
