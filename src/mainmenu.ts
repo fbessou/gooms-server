@@ -1,5 +1,10 @@
+import { Game, GameState } from "./core";
 
-export class MainMenu implements GameState {
+export class MainMenu extends GameState {
+	
+	constructor(game: Game) {
+		super(game);
+	}
 
 	update() {
 	

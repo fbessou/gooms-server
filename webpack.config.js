@@ -8,7 +8,7 @@ module.exports = {
 		filename: "gooms.js"
 	},
 	entry: {
-		"app": path.resolve("./src/index.ts")
+		"app": path.resolve("./src/main.ts")
 	},
 	module: {
 		loaders: [
