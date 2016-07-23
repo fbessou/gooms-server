@@ -1,4 +1,6 @@
-import {GoodBye} from "./other"
+import { GoodBye } from "./other";
+import { Container } from "pixi.js";
+
 class Hello {
 	private data:number;
 
