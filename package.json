@@ -10,7 +10,7 @@
     "watch": "webpack --watch",
     "start": "webpack-dev-server",
 	"typings": "typings",
-	"postinstall": "npm run -- install"
+	"postinstall": "npm run typings -- install"
   },
   "repository": {
     "type": "git",
