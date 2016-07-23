@@ -27,8 +27,10 @@
   },
   "homepage": "https://github.com/fbessou/gooms-server#readme",
   "devDependencies": {
+    "brfs": "^1.4.3",
     "html-webpack-plugin": "^2.22.0",
     "pixi.js": "^3.0.11",
+    "transform-loader": "^0.2.3",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typescript-loader": "^1.1.3",
